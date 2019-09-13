@@ -15,7 +15,6 @@
     <mvc:annotation-driven></mvc:annotation-driven>
     <!-- 静态资源 -->
     <mvc:resources location="/WEB-INF/js/" mapping="/js/**"></mvc:resources>
-    <mvc:resources location="/WEB-INF/jsp/" mapping="/jsp/**"></mvc:resources>
     <mvc:resources location="/WEB-INF/css/" mapping="/css/**"></mvc:resources>
     <!-- 视图解析器 -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
